@@ -9,7 +9,7 @@ Yup, now, you can easily simulate them in your fav 3D modelling software. I wrot
 # POV simulation
 
 This repo will show you how to design your own POV display and view the final result.
-(WIP)
+
 
 
 
