@@ -17,8 +17,7 @@ This repo will show you how to design your own POV display and view the final re
 Choose a high refresh rate (I used 240Hz) and model all the LED timings in such a way, that a full rotation equals "one second" (240 frames), but this full revolution does not represent real time.
 
 > Blender driver examples:
-> Rotation: `-((frame/57.3)/240*360)`
-> LED Driver: `(abs(cos(frame/240*pi*2))>0.99925)`
+Rotation: `-((frame/57.3)/240*360)` | LED Driver: `(abs(cos(frame/240*pi*2))>0.99925)`
 
 
 ### 2: Render the full revolution into EXR file format as an image sequence.
