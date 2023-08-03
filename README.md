@@ -1,5 +1,10 @@
-# POV
-A persistence of vision display visualizer
+Do you know these?
+![image](https://github.com/SinanAkkoyun/POV/assets/43215895/76b96782-e845-4a29-8a14-507caa78b212)
+
+You, now, you can easily simulate them in your fav 3D modelling software.
+
+
+# POV simulation
 
 This repo will show you how to design your own POV display and view the final result.
 (WIP)
