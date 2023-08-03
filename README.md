@@ -13,7 +13,7 @@ This repo will show you how to design your own POV display and view the final re
 
 
 
-# 1: Model your POV display in Blender.
+### 1: Model your POV display in Blender.
 Choose a high refresh rate (I used 240Hz) and model all the LED timings in such a way, that a full rotation equals "one second" (240 frames), but this full revolution does not represent real time.
 
 > Blender driver examples:
@@ -21,13 +21,13 @@ Choose a high refresh rate (I used 240Hz) and model all the LED timings in such 
 > LED Driver: `(abs(cos(frame/240*pi*2))>0.99925)`
 
 
-# 2: Render the full revolution into EXR file format as an image sequence.
+### 2: Render the full revolution into EXR file format as an image sequence.
 
 
-# 3: Copy the averageexr.py script into the image sequence folder and run `python3 averageexr.py`
+### 3: Copy the averageexr.py script into the image sequence folder and run `python3 averageexr.py`
 
 
-# 4: Enjoy your final POV image!
+### 4: Enjoy your final POV image!
 
 
 
